@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickMark</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<div class="header">
+    <a href="#">QuickMark</a>
+    <nav>
+        <a href="#">Demo</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</div>
+
+<!-- Intro Section -->
+<section class="intro-section">
+    <div class="intro-content">
+        <img src="path/to/your/image.jpg" alt="QuickMark">
+        <div class="intro-text">
+            <h2>Who We Are</h2>
+            <p>QuickMark is an easy-to-use system that automatically tracks attendance using facial recognition. It stores data in Google Sheets and generates PDF reports for easy printing.</p>
+            <button class="large-button">Learn More</button>
+        </div>
+    </div>
+</section>
+
+<!-- Create Class Section -->
+<section class="create-class-section">
+    <div class="create-class-content">
+        <button class="large-button">Click here to create a class</button>
+        <div class="class-container">
+            <h3>Create a New Class</h3>
+            <form class="form-container">
+                <label for="class-name">Class Name:</label>
+                <input type="text" id="class-name" name="class-name" placeholder="Enter class name">
+                <label for="teacher-name">Teacher Name:</label>
+                <input type="text" id="teacher-name" name="teacher-name" placeholder="Enter teacher's name">
+                <label for="class-time">Class Time:</label>
+                <input type="time" id="class-time" name="class-time">
+                <button type="submit">Create Class</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<div class="footer">
+    <p>&copy; 2025 QuickMark. All rights reserved.</p>
+</div>
+
+</body>
+</html>
